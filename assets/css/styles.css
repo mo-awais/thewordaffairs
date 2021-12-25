@@ -1,0 +1,135 @@
+.background-2 {
+  background-image: url(../../assets/img/map-image.png);
+  position: relative;
+}
+
+.background {
+  background-image: url(../../assets/img/header-bg-2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /*max-width: 100%;*/
+  /*max-height: 100%;*/
+}
+
+.layer-opacit {
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.layer-opacity {
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#mainNav .navbar-brand {
+  font-family: Times New Roman;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-family: Times New Roman;
+}
+
+.intro-lead-in-slogan {
+  /*font-family: Times New Roman;*/
+  font-style: normal;
+}
+
+.podcast-button {
+  font-family: Times New Roman;
+  background-color: #7f3829;
+  border: none;
+}
+
+.podcast-padding {
+  height: 130px;
+}
+
+.brand-override:hover {
+  color: #fed136!important;
+}
+
+.nav-link-override:hover {
+  color: #fed136!important;
+}
+
+.brand-override {
+  color: white!important;
+}
+
+.nav-link-override.active {
+  color: #fed136!important;
+}
+
+#dropdown-button {
+  background-color: #7f3829!important;
+}
+
+.podcast-button:hover {
+  color: #7f3829;
+}
+
+.blog-align {
+  text-align: center;
+}
+
+.blog-top {
+  padding-top: 50px;
+}
+
+.blog-button {
+  display: block;
+  text-align: center;
+}
+
+.return-span {
+  float: none;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.return-div {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-override {
+  padding-top: 100px;
+}
+
+.spacer {
+  height: 100px;
+}
+
+#thankyou-button:hover {
+  background-color: #f3bd01;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
